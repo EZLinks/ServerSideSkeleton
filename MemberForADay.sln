@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{63C8D179-824A-4751-9A77-49179264D8EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{535CCC0F-EEF6-4CEB-8DEB-8BE9B50328C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{2D447CB8-FCD8-40A9-A2C0-E71AE5887A50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{E5518D85-6297-4B54-81D7-67F452AE88BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFD.Api", "MFD.Api\MFD.Api.csproj", "{30AE3023-F335-4C5F-8A5F-9F3E679B88C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30AE3023-F335-4C5F-8A5F-9F3E679B88C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30AE3023-F335-4C5F-8A5F-9F3E679B88C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30AE3023-F335-4C5F-8A5F-9F3E679B88C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30AE3023-F335-4C5F-8A5F-9F3E679B88C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30AE3023-F335-4C5F-8A5F-9F3E679B88C8} = {E5518D85-6297-4B54-81D7-67F452AE88BA}
+	EndGlobalSection
+EndGlobal
