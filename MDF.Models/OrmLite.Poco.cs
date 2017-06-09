@@ -25,7 +25,7 @@
 // 
 // The following connection settings were used to generate this file
 // 
-//     Connection String Name: `Default`
+//     Connection String Name: `ClubData`
 //     Provider:               `System.Data.SqlClient`
 //     Connection String:      `Data Source=localhost;Initial Catalog=QATeeTimes_UserConference;Integrated Security=True;MultipleActiveResultSets=true;`
 //     Schema:                 ``
@@ -46,7 +46,7 @@ using ServiceStack.DataAnnotations;
 using ServiceStack.Model;
 using ServiceStack;
 
-namespace Default
+namespace ClubData
 {
 }
 #pragma warning restore 1591

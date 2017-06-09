@@ -13,15 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{E5518D85-629
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFD.Api", "MFD.Api\MFD.Api.csproj", "{30AE3023-F335-4C5F-8A5F-9F3E679B88C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDF.Services.Interfaces", "MDF.Services.Interfaces\MDF.Services.Interfaces.csproj", "{57D0978A-47BA-4CE9-AB5C-5DDADF32193E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFD.Services.Interfaces", "MDF.Services.Interfaces\MFD.Services.Interfaces.csproj", "{57D0978A-47BA-4CE9-AB5C-5DDADF32193E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDF.Services", "MDF.Services\MDF.Services.csproj", "{52B510DE-444F-4194-9200-850D8AE7A70C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFD.Services", "MDF.Services\MFD.Services.csproj", "{52B510DE-444F-4194-9200-850D8AE7A70C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDF.Data.Interfaces", "MDF.Data.Interfaces\MDF.Data.Interfaces.csproj", "{3772E67D-8579-4DD5-A647-0F38577731C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFD.Data.Interfaces", "MDF.Data.Interfaces\MFD.Data.Interfaces.csproj", "{3772E67D-8579-4DD5-A647-0F38577731C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDF.Data", "MDF.Data\MDF.Data.csproj", "{11AB2CFA-820E-4AC5-8127-EBF1B51CFF44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFD.Data", "MDF.Data\MFD.Data.csproj", "{11AB2CFA-820E-4AC5-8127-EBF1B51CFF44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDF.Models", "MDF.Models\MDF.Models.csproj", "{7EC37C99-6E45-4908-8140-2CDD15D24963}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFD.Models", "MDF.Models\MFD.Models.csproj", "{7EC37C99-6E45-4908-8140-2CDD15D24963}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFD.Services.Tests", "MFD.Services.Tests\MFD.Services.Tests.csproj", "{3150E866-3AFE-4EE5-A156-56E7DAF3726D}"
 EndProject

@@ -12,7 +12,7 @@ using ServiceStack.DataAnnotations;
 using ServiceStack.Model;
 using ServiceStack;
 
-namespace Default
+namespace ClubData
 {
 	[Alias("tblCC_Trans")]
     public partial class tblCC_Tran 

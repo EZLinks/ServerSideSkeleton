@@ -12,7 +12,7 @@ using ServiceStack.DataAnnotations;
 using ServiceStack.Model;
 using ServiceStack;
 
-namespace Default
+namespace ClubData
 {
 	[Alias("tblTicketCancellations")]
     public partial class tblTicketCancellation 

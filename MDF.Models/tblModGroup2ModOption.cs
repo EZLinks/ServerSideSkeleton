@@ -12,7 +12,7 @@ using ServiceStack.DataAnnotations;
 using ServiceStack.Model;
 using ServiceStack;
 
-namespace Default
+namespace ClubData
 {
 	[Alias("tblModGroup2ModOption")]
     public partial class tblModGroup2ModOption 

@@ -12,7 +12,7 @@ using ServiceStack.DataAnnotations;
 using ServiceStack.Model;
 using ServiceStack;
 
-namespace Default
+namespace ClubData
 {
 	[Alias("tblCertCodes")]
     public partial class tblCertCode 

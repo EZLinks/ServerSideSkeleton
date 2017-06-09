@@ -43,9 +43,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MDF.Services.Interfaces\MDF.Services.Interfaces.csproj">
+    <ProjectReference Include="..\MDF.Services.Interfaces\MFD.Services.Interfaces.csproj">
       <Project>{57d0978a-47ba-4ce9-ab5c-5ddadf32193e}</Project>
-      <Name>MDF.Services.Interfaces</Name>
+      <Name>MFD.Services.Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

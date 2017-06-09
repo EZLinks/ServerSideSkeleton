@@ -860,13 +860,13 @@ class SqlServerSchemaReader : SchemaReader
 			}
 		}
 		
-		var cmdFks = _factory.CreateCommand();
-		cmdFks.Connection=connection;
-		cmdFks.CommandText=FOREIGN_KEYS_SQL;
+		var cMFDks = _factory.CreateCommand();
+		cMFDks.Connection=connection;
+		cMFDks.CommandText=FOREIGN_KEYS_SQL;
 		//get all the foreign keys and add them to the tables.
-		using(cmdFks)
+		using(cMFDks)
 		{
-			using (var rdr=cmdFks.ExecuteReader())
+			using (var rdr=cMFDks.ExecuteReader())
 			{
 				while(rdr.Read())
 				{
@@ -1583,13 +1583,13 @@ class PostGreSqlSchemaReader : SchemaReader
 			}
 		}
 
-		var cmdFks = _factory.CreateCommand();
-		cmdFks.Connection=connection;
-		cmdFks.CommandText=FOREIGN_KEYS_SQL;
+		var cMFDks = _factory.CreateCommand();
+		cMFDks.Connection=connection;
+		cMFDks.CommandText=FOREIGN_KEYS_SQL;
 		//get all the foreign keys and add them to the tables.
-		using(cmdFks)
+		using(cMFDks)
 		{
-			using (var rdr=cmdFks.ExecuteReader())
+			using (var rdr=cMFDks.ExecuteReader())
 			{
 				while(rdr.Read())
 				{

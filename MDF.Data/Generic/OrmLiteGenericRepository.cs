@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using MDF.Data.Interfaces.Generic;
+using MFD.Data.Interfaces.Generic;
 using ServiceStack.OrmLite;
 
-namespace MDF.Data.Generic
+namespace MFD.Data.Generic
 {
     /// <summary>The OrmLiteGenericRepository interface.</summary>
     /// <typeparam name="T">Any reference type.</typeparam>

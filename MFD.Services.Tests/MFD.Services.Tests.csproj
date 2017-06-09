@@ -53,17 +53,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MDF.Data.Interfaces\MDF.Data.Interfaces.csproj">
+    <ProjectReference Include="..\MDF.Data.Interfaces\MFD.Data.Interfaces.csproj">
       <Project>{3772e67d-8579-4dd5-a647-0f38577731c9}</Project>
-      <Name>MDF.Data.Interfaces</Name>
+      <Name>MFD.Data.Interfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MDF.Services.Interfaces\MDF.Services.Interfaces.csproj">
+    <ProjectReference Include="..\MDF.Services.Interfaces\MFD.Services.Interfaces.csproj">
       <Project>{57d0978a-47ba-4ce9-ab5c-5ddadf32193e}</Project>
-      <Name>MDF.Services.Interfaces</Name>
+      <Name>MFD.Services.Interfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MDF.Services\MDF.Services.csproj">
+    <ProjectReference Include="..\MDF.Services\MFD.Services.csproj">
       <Project>{52b510de-444f-4194-9200-850d8ae7a70c}</Project>
-      <Name>MDF.Services</Name>
+      <Name>MFD.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

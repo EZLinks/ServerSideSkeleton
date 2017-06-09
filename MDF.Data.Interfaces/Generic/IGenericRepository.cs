@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace MDF.Data.Interfaces.Generic
+namespace MFD.Data.Interfaces.Generic
 {
     /// <summary>The GenericRepository interface.</summary>
     /// <typeparam name="T">Any entoty class type.</typeparam>

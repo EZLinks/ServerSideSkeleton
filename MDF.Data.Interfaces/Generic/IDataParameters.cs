@@ -1,4 +1,4 @@
-﻿namespace MDF.Data.Interfaces.Generic
+﻿namespace MFD.Data.Interfaces.Generic
 {
     /// <summary>The DataParameters interface.</summary>
     public interface IDataParameters

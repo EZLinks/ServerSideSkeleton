@@ -25,7 +25,7 @@ namespace MFD.Api
             LogManager.Initialize(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "log4net.config"));
 
             RegisterCors(app);
-            RegisterAuth(app);
+            //RegisterAuth(app);
         }
     }
 }
