@@ -2,3 +2,7 @@
 packages/
 bin/
 obj/
+
+\.vs/
+
+MFD\.Domain\.Models/Properties/AssemblyInfo\.cs
